@@ -1,0 +1,11 @@
+game_id,genre,type,publisher,author,rating,number_of_reviews,price,quantity,game_name
+101,Strategy,BoardGame,Publisher1,Author1,4.5,120,29.99,50,youpi
+102,Family,BoardGame,Publisher2,Author2,4.3,95,24.99,30,second_game
+103,Adventure,BoardGame,Publisher3,Author3,4.7,200,39.99,20,none
+104,Card,CardGame,Publisher4,Author4,4.2,60,19.99,40,diofjsodijf
+105,Cooperative,BoardGame,Publisher5,Author5,4.8,150,34.99,15,fighter
+106,Fantasy,BoardGame,Publisher6,Author6,4.4,80,32.99,25,brick
+107,Abstract,BoardGame,Publisher7,Author7,3.9,45,15.99,100,snake
+108,Party,BoardGame,Publisher8,Author8,4.6,170,27.99,10,assassin
+109,Deckbuilding,CardGame,Publisher9,Author9,4.1,55,22.99,35,fine
+110,RolePlaying,BoardGame,Publisher10,Author10,4.9,300,49.99,5,pong

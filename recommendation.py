@@ -85,18 +85,3 @@ def generate_recommendations(user_data: UserData):
         for game_id in recommended_game_ids
     ]
     return recommendations
-
-
-# Example usage
-if __name__ == "__main__":
-    # Mock user data
-    user_data = UserData(
-        user_id=1,
-        purchases=[
-            UserPurchase(game_id=101, rating=4.5),
-            UserPurchase(game_id=102, rating=3.0)
-        ]
-    )
-
-    recs = generate_recommendations(user_data)
-    print("Recommendations:", recs)

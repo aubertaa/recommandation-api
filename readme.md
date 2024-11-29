@@ -12,10 +12,15 @@ docker build -t fastapi-recommendation .
 
 ## Run
 
-To run the project, you can use the following command:
+First create the network if it doesn't exist yet:
+```bash
+docker network create gamesup
+```
+
+Then run the project, you can use the following command:
 
 ```bash
-docker run -d -p 8000:8000 fastapi-recommendation
+docker run -d --network=gamesup --name python-backend -p 8000:8000 fastapi-recommendation
 ```
 
 The API will be available at `http://localhost:8000`.

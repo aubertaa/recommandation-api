@@ -4,4 +4,4 @@ pydantic
 typing
 scikit-learn
 numpy
-
+uvicorn
